@@ -1,0 +1,32 @@
+#Shamika {
+    font-family: Georgia;
+    text-align:center;font-size: 55px;font-
+}
+h1{
+    color:green;text-align: center;
+}
+
+.Remove{
+text-decoration:none;color:blue;font-weight: bold;font-size: 23px;
+}
+a:hover{
+    text-decoration:underline;
+}
+img{
+    float:left;padding:25px;block-size: 360px;
+}
+p{
+    font-size: 25px;
+}
+li{
+    font-size: 23px;
+}
+.once{
+    font-weight: bold;font-size: 22px;
+}
+.round {
+    width:900px;height:50px;border-radius:70%;text-align:left;font-size: 25px; float:left;
+}
+img {
+    float: left;
+}
