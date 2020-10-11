@@ -1,5 +1,5 @@
 h1{
-    color:blue;font-size: 100px;float:center;
+    color:blue;font-size: 75px;float:center;
 }
 img{
     float:center;padding:20px;
@@ -8,12 +8,24 @@ h3{
     color:purple;font-weight: bold;
 }
 a{
-    font-size: 32px;
+    font-size: 22px;
 }
 .bld{
-    font-weight: bold;color: red;
+    font-weight: bold;color: red;}
+p{
+    font-size: 22px;
 }
-#bordering{
-    border:10px solid transparent;
-    padd
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding:15px;
+}
+th{
+    text-align:left;
+}
+#TT{
+    Width:75%;
+    background-color: rgb(27, 119, 110);
 }
