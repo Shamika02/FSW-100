@@ -1,23 +1,24 @@
 h1{
-    color:blue;font-size: 75px;float:center;
+    color:blue;font-size: 55px;float:center;
 }
 img{
     float:center;padding:20px;
 }
-h3{
+#TT{
     color:purple;font-weight: bold;
 }
 a{
-    font-size: 22px;
+    font-size: 25px;
 }
+
 .bld{
     font-weight: bold;color: red;}
 p{
-    font-size: 22px;
+    font-size: 25px;color:black
 }
 table,th,td{
     border:1px solid black;
-    border-collapse: collapse;
+    border-collapse:collapse;
 }
 th, td{
     padding:15px;
@@ -25,7 +26,19 @@ th, td{
 th{
     text-align:left;
 }
+h4{
+    color:black;font-size: 25px;
+}
 #TT{
     Width:75%;
     background-color: rgb(27, 119, 110);
+}
+a{
+    text-decoration: none;
+}
+.TA{
+    text-decoration-line: underline;
+}
+.BU{
+    font-size: 15px;font-weight: bold;
 }
