@@ -6,6 +6,24 @@ body, html {
 margin:75px;
 }
 img{
-    height:400px;
-    width:700px;
+    float:left;
+    height:200px;
+    width:auto;
+    margin:30px;
+}
+.container{
+    background-color: aquamarine;(247,252)
+    box-shadow: 5px 10px 6px #5c6469;
+    margin:35px 15% 35px 15%;
+    display: table;
+    clear:both;
+}
+nav{
+    position:fixed;
+    text-outline: 0;
+    z-index: 2;
+    padding: 14px 16px;
+    backgound-color: rgba(138,187,236,0.25);
+    font-size: 20px;
+    width: 100%;
 }
