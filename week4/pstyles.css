@@ -1,11 +1,11 @@
-p{
-    font-size:32px;color:blue;
-    margin:10px;
+h1 {
+    font-size:52px;color:blue;
+    margin:30px;
 }
 body, html {
-margin:200px;
+margin:75px;
 }
 img{
-    height:500px;
-    width:1000px;
+    height:400px;
+    width:700px;
 }
