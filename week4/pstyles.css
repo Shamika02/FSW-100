@@ -2,7 +2,7 @@ h4,h2,h3 {
     font-size:32px;color:blue;
     font-style: italic;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 nav{
     position: fixed;
@@ -24,7 +24,7 @@ h1{
     margin:50px;
     height: 450px;
     box-shadow:20px 10px midnightblue;
-    padding:55px;
+    padding:35px;
     border:15px;
     display: block;
     clear: both;
@@ -33,6 +33,8 @@ img {
     float: left; 
     margin: 5px;
     width: auto;
+    padding-right: 40px;
+    
 }
 section{
     padding:5px;
