@@ -20,7 +20,7 @@ h1{
     font-size: 35px;
 }
 .container{
-    background-color:rgb(241, 234, 234);
+    background-color:rgb(221, 210, 210);
     margin:50px;
     height: 450px;
     box-shadow:20px 10px midnightblue;
@@ -40,6 +40,11 @@ section{
 .underline{
     font-weight:bold;
     text-align: center;
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(51, 15, 136);
 }
 
     
