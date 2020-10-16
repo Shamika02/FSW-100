@@ -5,36 +5,42 @@ h4,h2,h3 {
     padding-top: 10px;
 }
 nav{
+    float: left;
+    width: 100%;
     position: fixed;
-    top:0;
     padding: 5px 5px;
-    height: 85px;
+    height: 45px;
     background-color: rgb(87, 136, 185);
     font-size: 20px;
-    width: 100%;
+        
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding-top: 5px;
     font-size: 35px;
+    margin-top: 0;
 }
 .container{
     background-color:rgb(221, 210, 210);
-    margin:50px;
+    margin:30px;
     height: 450px;
     box-shadow:20px 10px midnightblue;
-    padding:35px;
+    padding:15px;
     border:15px;
-    display: block;
+    display:block;
     clear: both;
 }
 img {
     float: left; 
     margin: 5px;
     width: auto;
-    padding-right: 40px;
+    margin-top:0;
+    padding-right: 20px;
     
+}
+body{
+    margin: 0;
 }
 section{
     padding:5px;
@@ -48,11 +54,10 @@ a{
     font-weight: bold;
     color: rgb(51, 15, 136);
 }
-.menu{
-    display: inline;
+.menu li{
+   display:inline;
 }
 
-    
    
 
 
