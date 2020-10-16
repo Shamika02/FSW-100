@@ -48,6 +48,9 @@ a{
     font-weight: bold;
     color: rgb(51, 15, 136);
 }
+.menu{
+    display: inline;
+}
 
     
    
