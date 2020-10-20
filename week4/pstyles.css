@@ -55,7 +55,10 @@ a{
     font-weight: bold;
     color: rgb(51, 15, 136);
 }
- 
+.i{
+    width:1000px;
+    height:1000px;
+} 
 
 
 
