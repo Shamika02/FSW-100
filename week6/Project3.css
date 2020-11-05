@@ -1,135 +1,49 @@
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
     width: 100%;
-    height: 60px;
-    background-color: salmon;
-    
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
 
-}
-li{
-    display: inline-block;
-    font-size: 20px;
-    padding: 15px;
-    
-}
-h1{
-    font-size: 50px;
-    font-style: italic;
-    margin: 30px;
-    padding-left: 720px;
-}
-h2{
-    font-size:30px;
-    font-style: oblique;
-    padding-left: 380px;
-    color: black;
-    font-weight: bold;
-}
-h3{
-    font-size:30px;
-    font-style: oblique;
-    padding-left: 300px;
-    color: black;
-    font-weight: bold;
-
-}
-table{
-    font-family: Arial, Helvetica, sans-serif;
-    width:100%;
-    padding-top: 20px;
-    
-}
-tr:nth-child(even){
-background-color: salmon;
-} 
-
-td, th {
-    text-align: left;
-    padding: 10px;
-    margin:5px;
-  }
-  .flex-container > div {
-    margin: 5px;
-    padding: 10px;
-    font-size: 20px;
-  }
- img {
-     border-radius: 100%; 
-     padding-left: 140px; 
-  }
-  div :nth-child(even){
-    background-color:salmon; 
-    width:915px;
-    padding-bottom: 20px;
-   margin-bottom: 20px;
-  }
-  h1,h2,h3,marquee {
-     font-family: 'Dancing Script', cursive;
-  }
-  .fa {
-    padding: 20px;
-    width: 30px;
+@media screen and (max-width: 400px) {
+  .sidebar a {
     text-align: center;
-    text-decoration: left;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    font-size: 100px;
-}
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
+    float: none;
   }
-  
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  marquee{
-    font-size:50px ;
-    font-weight:bold;
-  }
-  .grid-container{
-    display: grid;
-    grid-template-columns: (1fr,1fr,auto);
-    grid-auto-rows: minmax(10px,auto);
-    gap: 20px;
-    font-style: oblique;
-    font-weight: bold;
-}
-.Monday{
-    grid-column: 1/-1;
-    grid-row: 1/1;
-    border:2px;
-    padding-left: 1000px;
-}
-.Tuesday{
-    grid-column: 1/-1;
-    grid-row: 2/2;
-    border:2px;
-    padding-left: 1000px;
-}
-.Wednesday{
-    grid-column: 1/-1;
-    grid-row: 3/3;
-    border:2px;
-    padding-left: 1000px;
 }
