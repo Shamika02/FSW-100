@@ -1,0 +1,28 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-auto-rows: minmax(200px,auto);
+    gap: 10px;
+    background-color: rgb(238, 178, 66);
+}
+img{
+    width: 100%;
+}
+div{
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+.img{
+    
+    grid-column: 1/-1;
+    grid-row: 1;
+    border:2px;
+    padding:20px;
+     
+}
+
