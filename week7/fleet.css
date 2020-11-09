@@ -5,9 +5,9 @@ h1{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(1fr);
-    grid-auto-rows: minmax(200px,auto);
+    grid-auto-rows: minmax(100px,auto);
     gap: 10px;
-    background-color: rgb(238, 178, 66);
+
 }
 img{
     width: 100%;
@@ -25,4 +25,6 @@ div{
     padding:20px;
      
 }
-
+nav{
+    height:20px;
+}
